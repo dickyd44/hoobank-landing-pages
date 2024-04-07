@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/hoobank.svg" sizes="any" />
       <body className={poppins.className}>{children}</body>
     </html>
   );
