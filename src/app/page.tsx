@@ -1,5 +1,5 @@
 import styles from "./style";
-import { AppNavbar, Hero, Stats, AppFooter } from "@/components";
+import { AppNavbar, Hero, Stats, Business, AppFooter } from "@/components";
 
 const Home = () => {
   return (
@@ -19,6 +19,7 @@ const Home = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
+          <Business />
           <AppFooter />
         </div>
       </div>

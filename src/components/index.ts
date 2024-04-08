@@ -1,3 +1,3 @@
-import { AppNavbar, Hero, Stats, AppFooter } from "./organisms";
+import { AppNavbar, Hero, Stats, Business, AppFooter } from "./organisms";
 
-export { AppNavbar, Hero, Stats, AppFooter };
+export { AppNavbar, Hero, Stats, Business, AppFooter };
