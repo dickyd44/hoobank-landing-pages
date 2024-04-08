@@ -1,5 +1,6 @@
-import { AppNavbar, AppFooter } from "@/components";
 import styles from "./style";
+import { AppNavbar, AppFooter } from "@/components";
+import { Hero } from "@/components/organisms";
 
 const Home = () => {
   return (
@@ -7,6 +8,12 @@ const Home = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <AppNavbar />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
         </div>
       </div>
 
