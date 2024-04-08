@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "@/app/style";
 import { logo } from "@/assets";
 import { footerLinks, socialMedia } from "@/constants";

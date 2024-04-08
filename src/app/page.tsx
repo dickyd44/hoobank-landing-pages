@@ -1,4 +1,4 @@
-import { AppNavbar } from "@/components";
+import { AppNavbar, AppFooter } from "@/components";
 import styles from "./style";
 
 const Home = () => {
@@ -7,6 +7,12 @@ const Home = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <AppNavbar />
+        </div>
+      </div>
+
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <AppFooter />
         </div>
       </div>
     </div>
