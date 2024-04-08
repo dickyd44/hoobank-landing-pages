@@ -1,3 +1,3 @@
-import Navbar from "./Navbar";
+import { AppNavbar } from "./organisms";
 
-export { Navbar };
+export { AppNavbar };
