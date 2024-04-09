@@ -7,6 +7,7 @@ import {
   CardDeal,
   Testimonials,
   Clients,
+  CTA,
   AppFooter,
 } from "./organisms";
 
@@ -19,5 +20,6 @@ export {
   CardDeal,
   Testimonials,
   Clients,
+  CTA,
   AppFooter,
 };

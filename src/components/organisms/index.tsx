@@ -6,6 +6,7 @@ import { default as Billing } from "./BillingSection";
 import { default as CardDeal } from "./CardDealSection";
 import { default as Testimonials } from "./TestimonialSection";
 import { default as Clients } from "./ClientSection";
+import { default as CTA } from "./CtaSection";
 import { default as AppFooter } from "./layouts/Footer";
 
 export {
@@ -17,5 +18,6 @@ export {
   CardDeal,
   Testimonials,
   Clients,
+  CTA,
   AppFooter,
 };

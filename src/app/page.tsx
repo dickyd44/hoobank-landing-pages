@@ -8,6 +8,7 @@ import {
   CardDeal,
   Testimonials,
   Clients,
+  CTA,
   AppFooter,
 } from "@/components";
 
@@ -34,6 +35,7 @@ const Home = () => {
           <CardDeal />
           <Testimonials />
           <Clients />
+          <CTA />
           <AppFooter />
         </div>
       </div>
