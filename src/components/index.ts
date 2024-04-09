@@ -4,7 +4,8 @@ import {
   Stats,
   Business,
   Billing,
+  CardDeal,
   AppFooter,
 } from "./organisms";
 
-export { AppNavbar, Hero, Stats, Business, Billing, AppFooter };
+export { AppNavbar, Hero, Stats, Business, Billing, CardDeal, AppFooter };

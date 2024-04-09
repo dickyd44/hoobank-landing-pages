@@ -5,6 +5,7 @@ import {
   Stats,
   Business,
   Billing,
+  CardDeal,
   AppFooter,
 } from "@/components";
 
@@ -28,6 +29,7 @@ const Home = () => {
           <Stats />
           <Business />
           <Billing />
+          <CardDeal />
           <AppFooter />
         </div>
       </div>
