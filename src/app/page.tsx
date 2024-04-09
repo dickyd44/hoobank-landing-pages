@@ -7,6 +7,7 @@ import {
   Billing,
   CardDeal,
   Testimonials,
+  Clients,
   AppFooter,
 } from "@/components";
 
@@ -19,7 +20,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.flexStart} mt-20`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -32,6 +33,7 @@ const Home = () => {
           <Billing />
           <CardDeal />
           <Testimonials />
+          <Clients />
           <AppFooter />
         </div>
       </div>

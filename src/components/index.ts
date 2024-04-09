@@ -6,6 +6,7 @@ import {
   Billing,
   CardDeal,
   Testimonials,
+  Clients,
   AppFooter,
 } from "./organisms";
 
@@ -17,5 +18,6 @@ export {
   Billing,
   CardDeal,
   Testimonials,
+  Clients,
   AppFooter,
 };
