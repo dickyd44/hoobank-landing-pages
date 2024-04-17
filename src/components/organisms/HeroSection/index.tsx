@@ -15,7 +15,7 @@ export default function HeroSection() {
     const controls = animate(0, 20, {
       duration: 1.2,
       onUpdate(value) {
-        discountRef.current.textContent = `$${value.toFixed()}`;
+        discountRef.current.textContent = `${value.toFixed()}%`;
       },
     });
     return () => controls.stop();
