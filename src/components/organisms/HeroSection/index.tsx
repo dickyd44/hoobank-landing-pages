@@ -1,12 +1,9 @@
+"use client";
+
 import { GetStarted } from "@/components/atoms";
 import styles from "@/app/style";
 import { discount, robot } from "@/assets";
 import Image from "next/image";
-import { useGSAP } from "@gsap/react";
-
-useGSAP(() => {
-  gsap.from(".hero-gsap", { duration: 1, y: -100, opacity: 0 });
-}, {});
 
 export default function HeroSection() {
   return (
